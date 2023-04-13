@@ -14,3 +14,9 @@ img {
   max-width: 500px;
   margin: auto;
 }
+
+.about {
+  bottom: 0;
+  text-align: center;
+  padding-top: 100px;
+}
