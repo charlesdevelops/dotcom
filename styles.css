@@ -2,11 +2,12 @@ body {
   color: #454545;
   font-family: "Open Sans", sans-serif;
 }
+
 h1 {
   color: 454545;
 }
+
 img {
-  /* padding: 25px; */
   width: 700px;
   scale: 0.95;
 }
