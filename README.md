@@ -1,2 +1,3 @@
 # dotcom
-my personal website, acessible at https://charlesdevelops.com  
+
+my personal website, accessible at https://charlesdevelops.com
