@@ -4,6 +4,7 @@ body {
   width: 90vw;
   max-width: 700px;
   margin: auto;
+  display: block;
 }
 
 img {
