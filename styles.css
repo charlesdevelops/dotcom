@@ -2,14 +2,15 @@ body {
   color: #454545;
   font-family: "Open Sans", sans-serif;
   text-align: justify;
+  line-height: 1.4;
 }
 
 img {
   width: inherit;
   max-width: inherit;
   object-fit: contain;
-  overflow-clip-margin: content-box;
-  overflow: clip;
+  /* overflow-clip-margin: content-box;
+  overflow: clip; */
   scale: 0.95;
 }
 
