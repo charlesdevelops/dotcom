@@ -9,8 +9,6 @@ img {
   width: inherit;
   max-width: inherit;
   object-fit: contain;
-  /* overflow-clip-margin: content-box;
-  overflow: clip; */
   scale: 0.95;
 }
 
