@@ -6,7 +6,7 @@ body {
 }
 
 img {
-  width: inherit;
+  width: 90vw;
   max-width: inherit;
   object-fit: contain;
   scale: 0.95;
