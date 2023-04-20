@@ -1,10 +1,10 @@
 body {
   color: #454545;
   font-family: "Open Sans", sans-serif;
-  width: 90vw;
+  /* width: 90vw;
   max-width: 700px;
   margin: auto;
-  display: block;
+  display: block; */
 }
 
 img {
@@ -12,6 +12,13 @@ img {
   max-width: inherit;
   object-fit: contain;
   scale: 0.95;
+}
+
+.content {
+  width: 90vw;
+  max-width: 700px;
+  margin: auto;
+  display: block;
 }
 
 .about {
