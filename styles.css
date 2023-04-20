@@ -1,20 +1,20 @@
 body {
   color: #454545;
   font-family: "Open Sans", sans-serif;
-}
-
-img {
-  width: 700px;
-  scale: 0.95;
-}
-
-.content {
+  width: 90vw;
   max-width: 700px;
   margin: auto;
 }
 
+img {
+  width: inherit;
+  max-width: inherit;
+  object-fit: contain;
+  scale: 0.95;
+}
+
 .about {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 75px;
   padding-bottom: 25px;
 }
