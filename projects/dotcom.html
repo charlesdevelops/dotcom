@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>dotcom</title>
+  </head>
+  <div class="navbar">
+    <a href="/index.html">Home</a>
+    <a href="https://github.com/charlesdevelops/" class="github">github</a>
+  </div>
+  <body class="content">
+    <div>
+      <h1>About this website</h1>
+      <p>
+        I am especially proud of this site as it's something that I put lots of
+        effort into - especially making it mobile friendly. Keeping it small and
+        simple was one of my main priorities.
+      </p>
+      <p>
+        I had previously set up the hosting for this website the hard way, using
+        an EC2 instance based in Singapore 🇸🇬 which I manually configured with
+        <a href="https://httpd.apache.org/">HTTPD</a>, renewing the SSL
+        certificate myself manually in order to enable HTTPS. Fun stuff! I leant
+        a lot setting that up, however I have since changed the hosting solution
+        to a more simple deployment with less maintainance required.
+      </p>
+    </div>
+    <div>
+      <h2>Future updates</h2>
+      <p>
+        At some point, I will get around to upgrading the site to use Hugo
+        templating, likely when it becomes too much hassle to manually update
+        the html myself. I'm reluctant to use something like wordpress as I
+        don't want to abstract <i>too</i> much away.
+      </p>
+    </div>
+    <div>
+      <h2>Site specs:</h2>
+      <p>
+        This site is hosted on
+        <a href="https://www.cloudflare.com/en-au/"> Cloudflare</a>, which is a
+        CDN (Content Delivery Network) that enables fast load times by caching
+        this sites data in various locations around the world. More about
+        Cloudflare:
+      </p>
+      <ul>
+        <li>
+          Highly available, the Cloudflare network can reach 95% of the worlds
+          population within approximately 50 ms.
+        </li>
+        <li>
+          Encrypted over SSL by default with no configuration required,
+          Cloudflare enables HTTPS without me needing to manage any
+          certificates.
+        </li>
+        <li>
+          Completely 100% free! Cloudflare has a free tier that is perfect for
+          simple static sites like this. The primary cost of running this page
+          is the yearly ~$10 cost for the domain.
+        </li>
+      </ul>
+      <p>
+        The site itself is written in pure HTML and CSS, and was designed to be
+        lightweight, simple, and minimal. If you want to take a look at the raw
+        HTML yourself, the site is publicly available on my github
+        <a href="https://github.com/charlesdevelops/dotcom"> here</a>.
+      </p>
+    </div>
+  </body>
+</html>

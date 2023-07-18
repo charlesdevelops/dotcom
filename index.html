@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <title>Charles' website</title>
   </head>
   <body class="content">
-    <title>Charles' website</title>
+    <div class="navbar">
+      <a href="/index.html">Home</a>
+      <a href="https://github.com/charlesdevelops/" class="github">github</a>
+    </div>
     <div>
       <h1>About me</h1>
       I was born in London 🇬🇧 but now live in Perth 🇦🇺, and currently I'm
@@ -16,7 +19,7 @@
       software engineer, with past experience as an intern at
       <a href="https://aws.amazon.com/">Amazon Web Services</a>.
     </div>
-    <img src="charles@0.5x.webp" alt="Me and my dog, Boris" />
+    <img src="/static/charles@0.5x.webp" alt="Me and my dog, Boris" />
     <div>
       You can find me on GitHub
       <a href="https://github.com/charlesdevelops">here</a> and on LinkedIn
@@ -55,10 +58,11 @@
           <li>R</li>
           <li>HTML / CSS</li>
         </ul>
-        <li>University majors</li>
+        <li>University Majors</li>
         <ul>
           <li>Computer Science</li>
           <li>Finance</li>
+          <li>Data Science (Minor)</li>
         </ul>
       </ul>
     </div>
@@ -75,57 +79,36 @@
     </div>
     <div>
       <h1>Projects</h1>
+      <p>
+        Most of my projects are done to learn new skills, as I personally learn
+        best by doing things instead of reading about them or watching videos.
+      </p>
       <div>
-        <h2>This website!</h2>
+        <h2>This website</h2>
         <p>
-          I am especially proud of this site as it's something that I put lots
-          of effort into - especially making it mobile friendly. Keeping it
-          small and simple was one of my main priorities.
+          A pet project which originally was hosted on a linux webserver in the
+          effort of teaching myself how to maintain a site and get comfortable
+          with technologies such as SSL, DNS, and EC2. I've since moved it to
+          Cloudflare Pages.
         </p>
-        <p>
-          I had previously set up the hosting for this website the hard way,
-          using an EC2 instance based in Singapore 🇸🇬 which I manually
-          configured with
-          <a href="https://httpd.apache.org/">HTTPD</a>, renewing the SSL
-          certificate myself manually in order to enable HTTPS. Fun stuff! I
-          leant a lot setting that up, however I have since changed the hosting
-          solution to a more simple deployment with less maintainance required.
-        </p>
-        <h3>Site specs:</h3>
-        <p>
-          This site is hosted on
-          <a href="https://www.cloudflare.com/en-au/"> Cloudflare</a>, which is
-          a CDN (Content Delivery Network) that enables fast load times by
-          caching this sites data in various locations around the world. More
-          about Cloudflare:
-        </p>
-        <ul>
-          <li>
-            Highly available, the Cloudflare network can reach 95% of the worlds
-            population within approximately 50 ms.
-          </li>
-          <li>
-            Encrypted over SSL by default with no configuration required,
-            Cloudflare enables HTTPS without me needing to manage any
-            certificates.
-          </li>
-          <li>
-            Completely 100% free! Cloudflare has a free tier that is perfect for
-            simple static sites like this. The primary cost of running this page
-            is the yearly ~$10 cost for the domain.
-          </li>
-        </ul>
-        <p>
-          The site itself is written in pure HTML and CSS, and was designed to
-          be lightweight, simple, and minimal. If you want to take a look at the
-          raw HTML yourself, the site is publicly available on my github
-          <a href="https://github.com/charlesdevelops/dotcom"> here</a>.
-        </p>
+        <a href="/projects/dotcom.html">Learn more here</a>.
       </div>
-      <h2>Other upcoming projects</h2>
-      I have a ton of ideas I'm looking to work on over the course of the year
-      in my free time, with some smaller projects already on my github. I'll
-      update this site as I work on them!
+      <div>
+        <h2>ipster</h2>
+        <p>
+          A CLI application I wrote in Go. The aim was to target a pain point in
+          my workflow, helping to semi-automate everyday tasks. Thanks to the
+          <a href="https://github.com/spf13/cobra">cobra</a> framework, it's
+          quite robust!
+        </p>
+        <a href="/projects/ipster.html">Learn more here</a>.
+      </div>
+      <div>
+        <h2>Other upcoming projects</h2>
+        I have a bunch of ideas I'm looking to work on over the course of the
+        year in my free time, with some smaller projects already on my github.
+        I'll update this site as I work on them!
+      </div>
     </div>
     <div class="about">Built with ❤️</div>
   </body>
