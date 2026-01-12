@@ -10,90 +10,124 @@
   <body class="content">
     <div>
       <h1>About me</h1>
-      I was born in London 🇬🇧 but now live in Perth 🇦🇺, and I'm currently
-      working full time as a Solutions Architect at
-      <a href="https://aws.amazon.com/">Amazon Web Services</a>, where I
-      previously interned. Up until December 2024, I studied Computer Science,
-      Finance, and Data Science at <a href="https://www.uwa.edu.au">UWA</a>,
-      when I finally earnt my Bachelor of Science, with two majors and a minor.
+      I'm currently based in Perth 🇦🇺 where I work as a Solutions Architect at
+      <a href="https://aws.amazon.com/">AWS</a>. Previously I studied Computer
+      Science and Data Science at <a href="https://www.uwa.edu.au">UWA</a>,
+      until I earnt my BSc in 2024. I spend my spare time working on various
+      side projects, including some attempts at bootstrapping startups.
     </div>
     <img src="/static/charles@0.5x.webp" alt="Me and my dog, Boris" />
+    <div>
+      My main hobby is playing chess - if you are interested feel free to check
+      out my
+      <a href="https://www.chess.com/stats/live/rapid/charles">current rating</a
+      >. I am entirely self taught. My chess.com username is just
+      <code>charles</code>, which is nice to have. Another of my hobbies is
+      Clash Royale (I've pushed up to the top 100 players in 🇦🇺 before). I
+      also have my dog Boris who is pictured above, although I'm not sure if
+      having a dog counts as a hobby.
+    </div>
+    <br />
     <div>
       You can find me on GitHub
       <a href="https://github.com/charlesdevelops">here</a> and on LinkedIn
       <a href="https://www.linkedin.com/in/charles-aidan-watson/">here</a>.
     </div>
     <div>
-      <h1>Hobbies</h1>
-      My main hobby is playing chess - if you are interested feel free to check
-      out my
-      <a href="https://www.chess.com/stats/live/rapid/charles">current rating</a
-      >. I am entirely self taught. My chess.com username is just
-      <code>charles</code>, something I am quite proud of owning. Outside of
-      chess I spend my time reading, listening to music, language learning
-      (poorly), Clash Royale (top 200 in 🇦🇺), and hanging out with my dog Boris,
-      pictured above.
-    </div>
-    <div>
       <h1>Projects</h1>
       <p>
-        Most of my projects are done to learn new skills, as I personally learn
-        best by doing things instead of reading about them or watching videos.
-        You may also notice that this section is quite sparse, which can be
-        attributed to most of my work being done at my job, but I do still try
-        to build some fun things on the side when I can.
+        I build tools to solve problems I run into often enough that it's
+        easier to build a solution than keep dealing with them manually. I've
+        recently also been inspired by Pieter Levels to try to find a niche in
+        the market and build something useful around it. While it is hard to
+        find time outside of work for these, I do try to keep busy.
       </p>
       <div>
-        <h2>This website</h2>
+        <h2>
+          <a href="https://quanttrading.io">quanttrading.io</a>
+        </h2>
         <p>
-          A pet project which originally was hosted on a linux webserver in the
-          effort of teaching myself how to maintain a site and get comfortable
-          with technologies such as SSL, DNS, and EC2. I've since moved it to
-          Cloudflare Pages.
+          I'm the technical cofounder, building a quant trading interview prep
+          and practice site. It's focused on decision-making, desk-style drills,
+          and structured prep rather than just textbook formulas. It gives
+          candidates a concrete way to practice and track progress before
+          interviews.
         </p>
-        <a href="/projects/dotcom.html">Learn more here</a>.
+      </div>
+      <div>
+        <h2>
+          <a href="https://mentionsignal.com">mentionsignal.com</a>
+        </h2>
+        <p>
+          A platform for performing research on Polymarket mention markets. It
+          takes a market URL, lets users connect the sources that matter, and
+          shows how often each traded term appears across coverage,
+          transcripts, PDFs, and other text sources. It lets traders make
+          statistically informed bets instead of simply going off vibes.
+        </p>
+      </div>
+      <div>
+        <h2>
+          <a href="https://counterparty.markets">counterparty.markets</a>
+        </h2>
+        <p>
+          A Polymarket analysis tool that looks at the top whales on each side
+          of any market, and shows whether they are long-term winners or
+          losers, their P/L, and other info. The goal is to help traders make
+          informed bets and avoid betting against people with a strong record
+          of success.
+        </p>
+      </div>
+      <div>
+        <h2>
+          <a href="https://statusmapper.app">statusmapper.app</a>
+        </h2>
+        <p>
+          A Qantas Status Credits calculator for partner airline flights. It
+          maps fare classes and routes (with mileage band fallback), and
+          supports all 22 partners whether they're <strong>one</strong>world
+          partners that earn status or basic partners that only earn points.
+        </p>
+        <p>
+          I built it because partner earn rates were unclear and I got tired
+          of checking the partner earn tables manually every time. It also
+          helps flyers avoid tricky situations where they book a
+          <strong>one</strong>world partner flight expecting to earn status
+          credits, but find after flying that they booked an ineligible fare
+          class to do so.
+        </p>
+      </div>
+      <div>
+        <h2>This website</h2>
+        <code>It looks like this on purpose.</code>
+        <p>
+          A pet project that I return to every so often to tweak. It started
+          as a learning experience, but now I keep it around because it's mine
+          and I like it. And in the age of (frankly) slop taking over the
+          internet, I have resolved to keep my personal site, which is a
+          reflection of
+          myself, refreshingly simple.
+        </p>
       </div>
       <div>
         <h2>ipster</h2>
         <p>
-          A CLI application I wrote in Go. The aim was to target a pain point in
-          my workflow, helping to semi-automate everyday tasks. Thanks to the
-          <a href="https://github.com/spf13/cobra">cobra</a> framework, it's
-          quite robust!
+          A CLI app that stores IP addresses and generates SSH commands to
+          speed up my workflow. It stores an IP, user login, and optionally a
+          key location, then generates the SSH command and writes it to the
+          user's clipboard. Built with
+          <a href="https://github.com/spf13/cobra">cobra</a> on top of Golang.
         </p>
-        <a href="/projects/ipster.html">Learn more here</a>.
+        <p>
+          <a href="https://github.com/charlesdevelops/ipster"
+            >https://github.com/charlesdevelops/ipster</a
+          >
+        </p>
       </div>
     </div>
     <div>
       <h1>Other stuff</h1>
-      <h2>Certs</h2>
-      <ul>
-        <li>
-          <a
-            href="https://www.credly.com/badges/8e51b0c5-822b-497e-bee2-69cb03a1069c/public_url"
-            >Solutions Architect Professional</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.credly.com/badges/ecf904ea-9081-440b-8890-f207388eefb3/public_url"
-            >Data Engineer Associate</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.credly.com/badges/af044ddc-881d-452f-8f96-50a8ed764f38/public_url"
-            >Developer Associate</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.credly.com/badges/37815457-ae4d-4036-a255-a15d6115a0fe/public_url"
-            >Cloud Practitioner</a
-          >
-        </li>
-      </ul>
-      <h2>Study Details</h2>
+      <h2>Academics</h2>
       <p>Bachelor of Science, BSc., <a href="https://www.uwa.edu.au">UWA</a></p>
       <ul>
         <li>Computer Science (Major)</li>
@@ -101,17 +135,12 @@
         <li>Data Science (Minor)</li>
       </ul>
       <p>
-        Previously I attended
-        <a href="https://www.perthmodern.wa.edu.au">Perth Modern School</a>
+        <a
+          href="https://www.credly.com/badges/8e51b0c5-822b-497e-bee2-69cb03a1069c/public_url"
+        >AWS Certified Solutions Architect Professional</a
+        >, and a few others. If you're a recruiter and you actually care
+        about this stuff, they're all listed and up to date on my LinkedIn.
       </p>
-      <h2>Languages I use</h2>
-      <ul>
-        <li>Go</li>
-        <li>C</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>R</li>
-      </ul>
     </div>
     <br />
   </body>
